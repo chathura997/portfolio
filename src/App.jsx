@@ -1,11 +1,16 @@
 import React from 'react'
 import "./app.scss"
-import Navbar from "./components/navbar/Navbar";
+import  Navbar  from './components/navbar/navbar'
+
+
+
 
 const App = () => {
   return (
     <div>
-      <section><Navbar/></section>
+      <section>
+        <Navbar/>
+      </section>
       <section>para</section>
       <section>p1</section>
       <section>p2</section>
