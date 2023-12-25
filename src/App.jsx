@@ -10,7 +10,7 @@ const App = () => {
       </section>
       <section id='About'>About</section>
       <section id='Projects'>Projects</section>
-      <section id='Contacts'>Contacts</section>
+      <section id='Contact'>Contacts</section>
       
     </div>
         // "Homepage",
