@@ -1,7 +1,17 @@
 
 const Links = () => {
+
+  const items = [
+    "Homepage",
+    "About", 
+    "Projects", 
+    "Contacts", 
+
+  ]
+
+
   return (
-    <div>
+    <div className="links">
         {/* <a href="#">About</a><br/>
         <a href="#">projects</a><br/>
         <a href="#">Contact me</a><br/>
