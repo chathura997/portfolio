@@ -7,14 +7,14 @@ import Toggle from "./toggle/Toggle"
 
 const variants = {
     open: {
-      clipPath: "circle(1200px at 50px 50px)",
+      clipPath: "circle(1200px at 50px 46px)",
       transition: {
         type: "spring",
         stiffness: 20,
       },
     },
     closed: {
-      clipPath: "circle(25px at 50px 50px)",
+      clipPath: "circle(24px at 45px 42px)",
       transition: {
         delay: 0.4,
         type: "spring",

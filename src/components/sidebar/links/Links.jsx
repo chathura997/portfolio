@@ -12,10 +12,9 @@ const Links = () => {
 
   return (
     <div className="links">
-        {/* <a href="#">About</a><br/>
-        <a href="#">projects</a><br/>
-        <a href="#">Contact me</a><br/>
-        <a href="#">Home</a><br/> */}
+       {items.map((item) => (
+        <a href={`#${item}`} key={item}>{item}</a>
+       ))}
     </div>
   )
 };
