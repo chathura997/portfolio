@@ -26,9 +26,9 @@ const navbar = () => {
       </motion.span>
 
       <div className="social">
-        <a href="#"><DiGithubBadge /></a>
-        <a href="#"><BsLinkedin /></a>
-        <a href="#"><FaHackerrank /></a>
+        <motion.a whileHover={{scale: 1.4,transition: { duration: 0.5 }}} style={{color:'white', fontSize:'250%'}} href="#"><DiGithubBadge /></motion.a>
+        <a style={{color:'#ffffff', fontSize:'250%'}} href="#"><BsLinkedin /></a>
+        <a style={{color:'white', fontSize:'250%'}} href="#"><FaHackerrank /></a>
       </div>
 
     </div>
